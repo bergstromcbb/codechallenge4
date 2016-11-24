@@ -2,10 +2,10 @@ input {
 	background-color: mistyrose ;
 	/*margin: 20px;*/
 	height: 25px;
-	width: 200px;
+	width: 50%;
 	margin-left: 10px;
-	margin-top: 50px;
-	margin-bottom: 35px;
+	margin-top: 8vw;
+	margin-bottom: 4vw;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 
 button { 
 	margin-bottom: 20px;
-	height: 25px;
-	width: 150px;
+	height: 4vw;
+	width: 35%;
 }
 
 .title {
