@@ -15,14 +15,19 @@ function isPalindrome(string){
 
 		console.log(string + " is a Palindrome")
 	}else {	
+
 		var isntPal = document.createElement('div');
 		isntPal.innerText = string + ' This is not a Palindrome';
 		document.body.appendChild(isntPal);
 
 		console.log(string + " is not a Palindrome")
-	};
 
+		
+	};
 };
+isPalindrome("llama mall")
+isPalindrome("i love you")
+
 
 
 

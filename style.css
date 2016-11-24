@@ -1,25 +1,105 @@
 input {
-	background-color: mistyrose;
-	margin: 20px;
+	background-color: mistyrose ;
+	/*margin: 20px;*/
 	height: 25px;
-	width: 300px;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 35px;
 }
 
 body {
 	/*border-color: black;*/
 	/*border-style: solid;*/
-	font-size: 2vw;
-	background-color: lightcyan;
-	width: 75%;
-	margin: auto;
-	text-align: center;
-	line-height: 3vw;
-	padding: 20px;
-
+	font-size: 4vw;
+	color: #ff85aa;
+	font-family: "american typewriter", serif;
 }
 
-button {
+button { 
 	margin-bottom: 20px;
 	height: 25px;
 	width: 150px;
+}
+
+.title {
+	font-size: 6vw;
+	line-height: 4vw;
+	text-align: center;
+	font-weight: 575;
+}
+
+.myBigContainer {
+	margin: 0;
+    padding: 0;
+    /*position: relative;*/
+    background: #ffffff;
+}
+
+.myBigContainer:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+	background-image: url("typewriter.jpg");
+    background-repeat: no-repeat;
+    /*background-position: 50% 0;*/
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.columnsoverall {
+	display: flex;
+	flex-direction: row;
+}
+
+.containeroverall {
+	width: 75%;
+	text-align: left;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+
+.leftcolumn{
+	width: 30%;
+	text-align: left;
+	/*background-color: rgba(100, 100, 100, 0); */
+
+	/*padding: 15px;*/
+}
+
+.rightcolumn{
+
+	width: 70%;
+	/*padding: 25px;*/
+	/*margin-left: 35px;*/
+	/*background-color: rgba(0, 0, 0, 0); 	*/
+	/*text-align: left;*/
+}
+
+img {
+	/*border-color: black;*/
+	/*border-style: solid;*/
+	width: 100%;
+	margin: auto;
+	z-index: 2;
+	margin-top: 25px;
+	margin-left: 14px;
+}
+
+div {
+	/*border-color: black;*/
+	/*border-style: solid;*/
+	text-align: center;
+	/*background-color: rgba(256, 256, 256, 0.6); */
 }

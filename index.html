@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Code Challenge 4</title>
+	<title>is it or isn't it</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="myBigContainer">
 
-	<div>
-		<input type="test" placeholder="type in a word or phrase" id="newInput">
-	</div>
-	<div>
-		<button onclick="isitorisntit()" value=submit >Check It Out</button>
-	</div>
+	<div class="containeroverall columnsoverall">
 
-	<script type="text/javascript" src="newscript.js"></script>
+		<div class="leftcolumn">
+			<!-- <img src="tall_header.png"> -->
+			<p class="title">is it</p>
+			<p class="title">or</p>
+			<p class="title">isn't it</p>
+			<p class="title">let's</p>
+			<p class="title">find </p>
+			<p class="title">out</p>
+		</div>
+
+		<div class="rightcolumn">
+			<input type="test" placeholder="type in a word or phrase" id="newInput"><br>
+			<button onclick="isitorisntit()" value=submit >Check It Out</button>
+			<section id="feedback"></section>
+		</div>
+	</div>
+	<br />
+<script type="text/javascript" src="newscript.js"></script>
 </body>
 </html>
