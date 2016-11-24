@@ -32,7 +32,7 @@ button {
 .myBigContainer {
 	margin: 0;
     padding: 0;
-    /*position: relative;*/
+    position: relative;
     background: #ffffff;
 }
 
