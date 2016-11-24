@@ -1,0 +1,25 @@
+input {
+	background-color: mistyrose;
+	margin: 20px;
+	height: 25px;
+	width: 300px;
+}
+
+body {
+	/*border-color: black;*/
+	/*border-style: solid;*/
+	font-size: 2vw;
+	background-color: lightcyan;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	line-height: 3vw;
+	padding: 20px;
+
+}
+
+button {
+	margin-bottom: 20px;
+	height: 25px;
+	width: 150px;
+}

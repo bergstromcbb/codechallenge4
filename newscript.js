@@ -1,18 +1,3 @@
-// function reverse(s) {
-//   var o = 'sister';
-//   for (var i = s.length - 1; i >= 0; i--)
-//     o += s[i];
-//   return o;
-//   console.log(s)
-// }
-
-// function reverse (string){
-	// var newRevString = string.split("").reverse().join("");
-	// return newRevString;
-
-// }
-//console.log(reverse("James"));
-
 function isitorisntit(){
 	var newString = document.getElementById('newInput').value;
 	isPalindrome(newString);
@@ -22,7 +7,6 @@ function isitorisntit(){
 function isPalindrome(string){
 	var word1 = string.replace(/\s+/g,"");
 	var word2 = word1.split("").reverse().join("");
-	// var word2 = newRevString;
 
 	if (word1===word2) {
 		var isPal = document.createElement('div');
