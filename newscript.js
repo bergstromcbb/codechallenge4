@@ -10,19 +10,14 @@ function isPalindrome(string){
 
 	if (word1===word2) {
 		var isPal = document.createElement('div');
-		isPal.innerText = string + ' - This is a Palindrome';
+		isPal.innerText = string + ' - This is';
 		document.getElementById('feedback').appendChild(isPal);
-
 		console.log(string + " is a Palindrome")
 	}else {	
 
 		var isntPal = document.createElement('div');
-
-
-		isntPal.innerText = string + ' - This is not a Palindrome';
-		
+		isntPal.innerText = string + ' - This is not';
 		document.getElementById('feedback').appendChild(isntPal);
-
 		console.log(string + " is not a Palindrome")
 
 		
